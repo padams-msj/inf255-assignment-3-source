@@ -186,13 +186,13 @@ Also test the following:
 
 ---
 
-## Extra credit (up to +2 points)
+## Extra credit (up to +3 points)
 
 Extra credit is for students who finish the required tasks and want to go
 further. **It is only graded if the required tasks work.** A broken required
 feature can't be made up with an extra one.
 
-Each feature below is worth **1 point**, up to a maximum of **2 points**. To
+Each feature below is worth **1 point**, up to a maximum of **3 points**. To
 count, a feature must:
 
 - work completely, without console errors;
