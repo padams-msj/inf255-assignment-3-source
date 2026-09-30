@@ -243,6 +243,13 @@ your logic from your comments alone. Comments that only restate the code, like
   `console.log("available clicked")` to its callback.
 - If a card shows the wrong animal, log the animal inside your `forEach()`
   callback.
+- `filter()` does not change the array you call it on. It **returns** a new
+  array with the matching items, so you must save that result in a variable:
+  `list = list.filter(...)`, not just `list.filter(...)`. If your filter
+  buttons seem to do nothing, check this first.
+- You can copy an array by calling `slice()` with no arguments:
+  `const copy = animals.slice();`. Sorting `copy` leaves `animals` in its
+  original order.
 - Check for simple typos. If Prettier isn't formatting your code on save,
   there's a syntax error somewhere.
 - Always keep the Console tab open. Errors appear there and point to the exact
